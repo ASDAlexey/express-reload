@@ -4,6 +4,6 @@ module.exports = function boot() {
     setTimeout(() => {
       console.log('Connected to satellites...');
       resolve();
-    }, 3000);
+    }, 500);
   });
 };

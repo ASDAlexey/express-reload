@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "server": "node index",
+    "nodemon": "nodemon index"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "chokidar": "^2.0.4",
     "debug": "^3.1.0",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7"
   }
 }
