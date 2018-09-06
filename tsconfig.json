@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "outDir": "build",
+    "lib": [
+      "dom",
+      "ES2015",
+      "ES2016"
+    ],
+    "allowJs": true,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "types": [
+      "node",
+      "express",
+      "inversify",
+      "reflect-metadata"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "server/**/*.ts"
+  ],
+  "files": [
+    "server/typings/typings.d.ts"
+  ]
+}
